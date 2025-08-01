@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jefferson Ramalho - Fanpage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body {
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      color: #1c1e21;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s ease-in-out;
+    }
+    .cover {
+      background: url('https://images.unsplash.com/photo-1545235617-9465d2a556b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      height: 260px;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      padding: 30px;
+    }
+    .profile img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      border: 5px solid white;
+      margin-top: -80px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .profile-info {
+      margin-left: 25px;
+    }
+    .profile-info h1 {
+      font-size: 2rem;
+      color: #0077cc;
+    }
+    .profile-info p {
+      color: #555;
+      margin-top: 6px;
+    }
+    .buttons {
+      display: flex;
+      gap: 15px;
+      padding: 0 30px 30px;
+      flex-wrap: wrap;
+    }
+    .buttons a {
+      flex: 1;
+      text-align: center;
+      background: #1877f2;
+      color: white;
+      padding: 12px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+    .buttons a:hover { opacity: 0.9; transform: scale(1.02); }
+    .buttons a.whatsapp { background: #25d366; }
+    .buttons a.linkedin { background: #0a66c2; }
+    section {
+      padding: 30px;
+    }
+    section h2 {
+      margin-bottom: 15px;
+      color: #0077cc;
+    }
+    section p {
+      line-height: 1.6;
+    }
+    footer {
+      background: #0077cc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cover"></div>
+    <div class="profile">
+      <img src="https://i.imgur.com/1X2E9T9.png" alt="Foto de Jefferson">
+      <div class="profile-info">
+        <h1>Jefferson Ramalho</h1>
+        <p>Estudante de Programação • 2º Período • Ceará</p>
+      </div>
+    </div>
+    <div class="buttons">
+      <a class="whatsapp" href="https://wa.me/5583921418988" target="_blank">WhatsApp</a>
+      <a href="https://instagram.com/jefferson_ramalhopb" target="_blank">Instagram</a>
+      <a class="linkedin" href="#" target="_blank">LinkedIn / RedHub</a>
+    </div>
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Sou estudante de programação, atualmente cursando o segundo período. Moro no Ceará e estou em busca de oportunidades para crescer na área de tecnologia. Gosto de aprender linguagens de programação, criar projetos e compartilhar conhecimento.</p>
+    </section>
+    <section>
+      <h2>Objetivos</h2>
+      <p>Me desenvolver como programador full stack, dominar linguagens como HTML, CSS, JavaScript, Python e também aprender Git, banco de dados e frameworks modernos.</p>
+    </section>
+    <footer>
+      © 2025 Jefferson Ramalho — Todos os direitos reservados
+    </footer>
+  </div>
+</body>
+</html>
